@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Development - Rifaat Mohamed</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #020617;
+            color: white;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #60a5fa, #a855f7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 py-12">
+        <a href="index.html" class="inline-flex items-center text-blue-400 hover:text-blue-300 mb-8">
+            <i data-lucide="arrow-left" class="w-4 h-4 mr-2"></i> Back to Portfolio
+        </a>
+        
+        <h1 class="text-4xl font-bold mb-6 gradient-text">Mobile App Development</h1>
+        
+        <img 
+            src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&q=80"
+            alt="Project Screenshot"
+            class="w-full rounded-xl mb-8 shadow-xl"
+        />
+        
+        <div class="prose prose-invert max-w-none">
+            <h2 class="text-2xl font-semibold mb-4">Project Overview</h2>
+            <p class="text-gray-300 mb-6">
+                A cross-platform mobile application that enables users to manage their daily tasks 
+                and collaborate with team members. The app features a clean, intuitive interface 
+                and powerful productivity tools.
+            </p>
+            
+            <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
+            <ul class="list-disc list-inside text-gray-300 mb-6">
+                <li>Cross-platform compatibility (iOS & Android)</li>
+                <li>Offline-first architecture</li>
+                <li>Push notifications</li>
+                <li>Team collaboration tools</li>
+                <li>Cloud synchronization</li>
+            </ul>
+            
+            <h2 class="text-2xl font-semibold mb-4">Technologies Used</h2>
+            <ul class="list-disc list-inside text-gray-300 mb-6">
+                <li>React Native for mobile development</li>
+                <li>Redux for state management</li>
+                <li>Firebase for backend services</li>
+                <li>Jest for testing</li>
+                <li>Fastlane for deployment</li>
+            </ul>
+            
+            <h2 class="text-2xl font-semibold mb-4">Challenges & Solutions</h2>
+            <p class="text-gray-300 mb-6">
+                Ensuring consistent performance across different devices and platforms was 
+                challenging. This was resolved by implementing platform-specific optimizations 
+                and thorough testing procedures.
+            </p>
+            
+            <div class="flex gap-4 mt-8">
+                <a href="#" class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                    <i data-lucide="github" class="w-4 h-4 mr-2"></i> View Source
+                </a>
+                <a href="#" class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors">
+                    <i data-lucide="external-link" class="w-4 h-4 mr-2"></i> Live Demo
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
